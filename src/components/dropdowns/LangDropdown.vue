@@ -2,7 +2,7 @@
     <div class="lang-dropdown">
 
         <div class="lang-dropdown-icon">
-            <img src="/images/icons/globe.svg" alt="">
+            <img src="images/icons/globe.svg" alt="">
         </div>
 
         <div class="lang-dropdown-list">

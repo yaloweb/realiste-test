@@ -6,7 +6,7 @@
 
                 <div class="header-logo">
                     <router-link to="/" class="logo">
-                        <img src="/images/logo.svg" alt="">
+                        <img src="images/logo.svg" alt="">
                     </router-link>
                 </div>
 
