@@ -25,31 +25,31 @@ export default {
             {
                 id: 1,
                 title: 'Квартиры',
-                image: '/images/icons/star.svg',
+                image: 'images/icons/star.svg',
                 link: '#'
             },
             {
                 id: 2,
                 title: 'Сделки',
-                image: '/images/icons/circle-arrow.svg',
+                image: 'images/icons/circle-arrow.svg',
                 link: '#'
             },
             {
                 id: 3,
                 title: 'Оценка',
-                image: '/images/icons/cash.svg',
+                image: 'images/icons/cash.svg',
                 link: '#'
             },
             {
                 id: 4,
                 title: 'Обмен',
-                image: '/images/icons/exchange.svg',
+                image: 'images/icons/exchange.svg',
                 link: '#'
             },
             {
                 id: 5,
                 title: 'Индекс',
-                image: '/images/icons/lightning-in-frame.svg',
+                image: 'images/icons/lightning-in-frame.svg',
                 link: '#'
             },
         ]
