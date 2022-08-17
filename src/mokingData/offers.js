@@ -6,7 +6,7 @@ export default [
         top: 50,
         description: 'Квартиры с доходностью<br> 12% годовых в Дубаи',
         image: '/images/offers/1.webp',
-        link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4&priceMax=1000000&presetCategory=best_for_investment_&locale=ru'
+        link: '#'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export default [
         top: 100,
         description: 'Рейтинг квартир для инвестиций в Дубаи',
         image: '/images/offers/2.webp',
-        link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4&priceMax=1000000&presetCategory=best_for_investment_&locale=ru'
+        link: '#'
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ export default [
             { id: 3, src: '/images/offers/5.webp' },
             { id: 4, src: '/images/offers/6.webp' }
         ],
-        link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4&priceMax=1000000&presetCategory=best_for_investment_&locale=ru'
+        link: '#'
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ export default [
         title: 'Квартиры',
         description: 'Квартиры по ценам ниже рыночных',
         image: '/images/offers/icons/star.webp',
-        link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4&priceMax=1000000&presetCategory=best_for_investment_&locale=ru'
+        link: '#'
     },
     {
         id: 5,
@@ -45,7 +45,7 @@ export default [
         title: 'Сделки',
         description: 'История сделок<br> с недвижимостью',
         image: '/images/offers/icons/arrow.webp',
-        link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4&priceMax=1000000&presetCategory=best_for_investment_&locale=ru'
+        link: '#'
     },
     {
         id: 6,
@@ -53,7 +53,7 @@ export default [
         title: 'Обмен',
         description: 'Обмен вашей квартиры<br> на новую',
         image: '/images/offers/icons/exchange.webp',
-        link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4&priceMax=1000000&presetCategory=best_for_investment_&locale=ru'
+        link: '#'
     },
     {
         id: 7,
@@ -61,7 +61,7 @@ export default [
         title: 'Оценка',
         description: 'Оцените квартиру<br> за 10 секунд',
         image: '/images/offers/icons/cash.webp',
-        link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4&priceMax=1000000&presetCategory=best_for_investment_&locale=ru'
+        link: '#'
     },
     {
         id: 8,
@@ -69,6 +69,6 @@ export default [
         title: 'Индексы',
         description: 'Индекс цен и ликвидность районов',
         image: '/images/offers/icons/lightning.webp',
-        link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4&priceMax=1000000&presetCategory=best_for_investment_&locale=ru'
+        link: '#'
     }
 ]

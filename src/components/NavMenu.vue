@@ -26,31 +26,31 @@ export default {
                 id: 1,
                 title: 'Квартиры',
                 image: '/images/icons/star.svg',
-                link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4'
+                link: '#'
             },
             {
                 id: 2,
                 title: 'Сделки',
                 image: '/images/icons/circle-arrow.svg',
-                link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4'
+                link: '#'
             },
             {
                 id: 3,
                 title: 'Оценка',
                 image: '/images/icons/cash.svg',
-                link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4'
+                link: '#'
             },
             {
                 id: 4,
                 title: 'Обмен',
                 image: '/images/icons/exchange.svg',
-                link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4'
+                link: '#'
             },
             {
                 id: 5,
                 title: 'Индекс',
                 image: '/images/icons/lightning-in-frame.svg',
-                link: 'https://ru-ae.realiste.io/?selectedCity=Dubai&cenLat=25.07704324&cenLng=55.133523&zoom=12&discountFromPriceMarketMin=0.03&discountFromPriceMarketMax=0.4'
+                link: '#'
             },
         ]
     })
