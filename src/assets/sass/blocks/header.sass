@@ -1,0 +1,83 @@
+.header
+  position: relative
+  z-index: 10
+
+.header-row
+  height: rem(80px)
+  display: flex
+  align-items: center
+
+.header-logo
+  text-align: center
+  margin-left: rem(38px)
+  flex-grow: 1
+
+.logo
+  img
+    flex-shrink: 0
+    width: rem(182px)
+
+.lang-dropdown
+  position: relative
+
+  &:hover
+    .lang-dropdown-list
+      opacity: 1
+      visibility: visible
+      transform: translate(-50%, 0)
+
+.lang-dropdown-icon
+  cursor: pointer
+
+  img
+    width: rem(38px)
+    flex-shrink: 0
+    display: block
+
+.lang-dropdown-list
+  position: absolute
+  top: calc(100% + #{rem(10px)})
+  left: 50%
+  transform: translate(-50%, #{rem(10px)})
+  box-shadow: 0 0 7px 0 rgba(#000, .2)
+  background-color: #fff
+  padding: rem(18px) rem(20px)
+  border-radius: rem(5px)
+  white-space: nowrap
+  visibility: hidden
+  opacity: 0
+  +tr(4)
+
+  &:before
+    content: ''
+    position: absolute
+    bottom: 100%
+    width: rem(20px)
+    height: rem(20px)
+    border-style: solid
+    border-width: rem(10px)
+    border-color: transparent transparent #fff transparent
+    left: 50%
+    margin-left: rem(-10px)
+
+  ul
+    list-style-type: none
+    padding: 0
+    margin: 0
+
+  li
+    margin-bottom: rem(12px)
+
+    &:last-child
+      margin-bottom: 0
+
+  a
+    color: #222
+    text-decoration: none !important
+    font-size: rem(14px)
+    font-weight: 600
+    text-transform: uppercase
+    +tr
+
+    &:hover
+      color: $accent

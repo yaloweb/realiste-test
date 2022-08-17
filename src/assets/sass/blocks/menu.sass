@@ -1,0 +1,31 @@
+.s-nav-menu
+  padding: rem(20px) 0
+
+.nav-menu
+  display: flex
+  align-items: flex-start
+  justify-content: center
+  grid-gap: rem(57px)
+
+.nav-menu-link
+  color: #4a4949
+  font-weight: 600
+  font-size: rem(22px)
+  text-align: center
+  text-decoration: none !important
+  +tr
+
+  &:hover
+    color: $accent
+
+    img
+      transform: translateY(#{rem(-5px)})
+
+  img
+    height: rem(58px)
+    width: auto
+    +tr
+
+  span
+    display: block
+    margin-top: rem(8px)

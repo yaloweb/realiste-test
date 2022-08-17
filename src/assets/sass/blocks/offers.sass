@@ -1,0 +1,165 @@
+.home-page
+  min-height: calc(100vh - #{rem(80px)})
+  display: flex
+  flex-direction: column
+
+.s-offers
+  padding: rem(55px) 0 0
+  flex-grow: 1
+  display: flex
+  flex-direction: column
+
+.offers-slider
+  flex-grow: 1
+  display: flex
+  flex-direction: column
+
+  .swiper-slide
+    width: rem(510px)
+    padding: 0 rem(15px)
+
+  .swiper-container
+    overflow: visible
+
+.offers-slider-swiper
+  flex-grow: 1
+  display: flex
+  align-items: center
+
+.offer-card,
+.category-card
+  position: relative
+  overflow: hidden
+  box-shadow: 2px 6px 20px 4px rgba(#000, .2)
+  background-color: rgba(#fff, .4)
+  backdrop-filter: blur(50px)
+  border-radius: rem(32px)
+  height: 100%
+  display: flex
+  flex-direction: column
+  padding: rem(40px) rem(25px) rem(25px)
+
+.offer-card-top
+  margin-bottom: rem(35px)
+
+  span
+    display: inline-block
+    height: rem(32px)
+    line-height: rem(32px)
+    position: relative
+    background-color: #504BBC
+    color: #fff
+    border-radius: rem(16px)
+    padding: 0 rem(15px) 0 rem(35px)
+    text-transform: uppercase
+    font-weight: bold
+    font-size: rem(19px)
+    background-image: url(/images/textures/gradient-circles.gif)
+    -webkit-background-size: cover
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+
+    &:before
+      content: ''
+      position: absolute
+      left: rem(16px)
+      width: rem(11px)
+      height: rem(21px)
+      background-image: url(/images/icons/lightning.svg)
+      background-repeat: no-repeat
+      background-position: center
+      -webkit-background-size: contain
+      background-size: contain
+      top: rem(5px)
+
+.offer-card-link,
+.category-card-link
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 2
+
+.offer-card-title
+  font-size: rem(45px)
+  font-weight: 800
+  line-height: 1.1
+  margin-bottom: rem(16px)
+
+.offer-card-description
+  font-size: rem(29px)
+  margin-bottom: rem(27px)
+
+.offer-card-btn
+  margin-bottom: rem(30px)
+
+.offer-card-image
+  position: relative
+  margin: auto rem(-13px) rem(-13px) rem(-13px)
+
+  &:before
+    content: ''
+    display: block
+    width: 100%
+    padding-bottom: 56.34%
+
+  > img
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 1
+
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+    box-shadow: 0 2px 4px 2px rgba(#000, .1)
+    border-radius: rem(24px)
+
+.offer-card-image-grid
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 1
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-gap: rem(10px)
+  grid-auto-rows: 1fr
+
+.category-card
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+  text-align: center
+
+.category-card-img
+  margin-bottom: rem(20px)
+
+  img
+    border-radius: 50%
+    height: rem(104px)
+    object-fit: cover
+    width: rem(104px)
+    box-shadow: 0 0 70px 13px rgba(67, 31, 201, .4)
+
+.category-card-title
+  font-size: rem(45px)
+  font-weight: 800
+  margin-bottom: rem(15px)
+
+.category-card-description
+  font-size: rem(28px)
+  max-width: rem(320px)
+
+.offers-slider-scrollbar
+  height: rem(10px)
+  background-color: #fff
+  margin-top: rem(60px)
+
+  .swiper-scrollbar-drag
+    border-radius: 0
