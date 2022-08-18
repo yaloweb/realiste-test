@@ -1,7 +1,14 @@
 <template>
-    <div class="lang-dropdown">
+    <div
+        class="lang-dropdown"
+        :class="{'active': opened}"
+        @click.stop
+    >
 
-        <div class="lang-dropdown-icon">
+        <div
+            class="lang-dropdown-icon"
+            @click="toggleLandDropdown"
+        >
             <img src="images/icons/globe.svg" alt="">
         </div>
 
@@ -13,7 +20,7 @@
                 >
                     <a
                         :href="`/${localization.code}`"
-                        @click.prevent
+                        @click.prevent="selectLang"
                     >
                         {{ localization.title }}
                     </a>
@@ -31,7 +38,29 @@ export default {
         localizations: [
             { id: 1, code: 'ru', title: 'Русский' },
             { id: 2, code: 'en', title: 'English' },
-        ]
-    })
+        ],
+        opened: false
+    }),
+    methods: {
+        toggleLandDropdown() {
+            if (window.innerWidth < 992) {
+                this.opened = !this.opened
+            }
+        },
+        closeLangDropdown() {
+            this.opened = false
+        },
+        selectLang() {
+            // select lang functional
+            //...
+            this.closeLangDropdown()
+        }
+    },
+    mounted() {
+        document.addEventListener('click', this.closeLangDropdown)
+    },
+    beforeDestroy() {
+        document.removeEventListener('click', this.closeLangDropdown)
+    }
 }
 </script>

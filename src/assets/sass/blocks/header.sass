@@ -20,11 +20,12 @@
 .lang-dropdown
   position: relative
 
-  &:hover
-    .lang-dropdown-list
-      opacity: 1
-      visibility: visible
-      transform: translate(-50%, 0)
+  @media (min-width: 992px)
+    &:hover
+      .lang-dropdown-list
+        opacity: 1
+        visibility: visible
+        transform: translate(-50%, 0)
 
 .lang-dropdown-icon
   cursor: pointer

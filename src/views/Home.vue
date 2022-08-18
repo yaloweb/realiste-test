@@ -8,25 +8,16 @@
             />
         </section>
 
-        <section class="s-nav-menu">
-            <div class="container">
-
-                <NavMenu />
-
-            </div>
-        </section>
-
     </div>
 </template>
 
 <script>
 import OffersSlider from '@/components/sliders/OffersSlider';
 import offers from '@/mokingData/offers';
-import NavMenu from '@/components/NavMenu';
 
 export default {
     name: 'Home',
-    components: { NavMenu, OffersSlider },
+    components: { OffersSlider },
     data: () => ({
         offers: []
     }),

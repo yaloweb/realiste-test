@@ -1,10 +1,10 @@
 .home-page
-  min-height: calc(100vh - #{rem(80px)})
+  min-height: calc(100 * var(--vh) - #{rem(220px)})
   display: flex
   flex-direction: column
 
 .s-offers
-  padding: rem(20px) 0 0
+  padding: rem(20px) 0
   flex-grow: 1
   display: flex
   flex-direction: column
@@ -38,6 +38,10 @@
   display: flex
   flex-direction: column
   padding: rem(25px)
+  transition: box-shadow .4s ease
+
+  &:hover
+    box-shadow: 2px 6px 25px 7px rgba(#000, .25)
 
 .offer-card-top
   margin-bottom: rem(25px)
@@ -94,6 +98,8 @@
 
 .offer-card-btn
   margin-bottom: rem(30px)
+  position: relative
+  z-index: 2
 
 .offer-card-image
   position: relative
@@ -129,6 +135,16 @@
   grid-template-columns: 1fr 1fr
   grid-gap: rem(10px)
   grid-auto-rows: 1fr
+
+.offer-card-image-grid-item
+  position: relative
+
+  img
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
 
 .category-card
   display: flex

@@ -25,7 +25,11 @@
         />
 
         <div class="offer-card-btn">
-            <span class="btn">Посмотреть</span>
+            <router-link
+                :to="link"
+                class="btn"
+            >Посмотреть
+            </router-link>
         </div>
 
         <div class="offer-card-image">
@@ -33,12 +37,16 @@
                 v-if="imagesIsArray"
                 class="offer-card-image-grid"
             >
-                <img
+                <div
                     v-for="imageItem in image"
                     :key="imageItem.id"
-                    :src="imageItem.src"
-                    alt=""
+                    class="offer-card-image-grid-item"
                 >
+                    <img
+                        :src="imageItem.src"
+                        alt=""
+                    >
+                </div>
             </div>
             <img
                 v-else

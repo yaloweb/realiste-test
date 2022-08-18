@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import App from '@/App.vue'
 import router from '@/router'
-import '@/assets/sass/main.sass'
+import './assets/sass/main.sass'
+import './utils/getGlobalVh'
 
 Vue.config.productionTip = false
 
