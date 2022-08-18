@@ -55,6 +55,16 @@ export default {
             scrollbar: {
                 el: '.offers-slider-scrollbar',
                 draggable: true
+            },
+            mousewheel: true,
+            freeMode: true,
+            breakpoints: {
+                0: {
+                    freeMode: false,
+                },
+                992: {
+                    freeMode: true
+                }
             }
         }
     })
