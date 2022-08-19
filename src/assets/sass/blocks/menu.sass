@@ -1,36 +1,42 @@
 .s-nav-menu
-  padding: rem(20px) 0
-  position: fixed
-  bottom: 0
-  left: 0
-  width: 100%
-  z-index: 5
+    padding: rem(20px) 0
+    position: fixed
+    bottom: 0
+    left: 0
+    width: 100%
+    z-index: 5
 
 .nav-menu
-  display: flex
-  align-items: flex-start
-  justify-content: center
-  grid-gap: rem(57px)
+    display: flex
+    align-items: flex-start
+    justify-content: center
 
 .nav-menu-link
-  color: #4a4949
-  font-weight: 600
-  font-size: rem(22px)
-  text-align: center
-  text-decoration: none !important
-  +tr
-
-  &:hover
-    color: $accent
-
-    img
-        transform: scale(1.05)
-
-  img
-    height: rem(58px)
-    width: auto
+    color: #4a4949
+    font-weight: 600
+    font-size: rem(22px)
+    text-align: center
+    text-decoration: none !important
+    margin: 0 28px
     +tr
 
-  span
-    display: block
-    margin-top: rem(8px)
+    &:first-child
+        margin-left: 0
+
+    &:last-child
+        margin-right: 0
+
+    &:hover
+        color: $accent
+
+        img
+            transform: scale(1.05)
+
+    img
+        height: rem(58px)
+        width: auto
+        +tr
+
+    span
+        display: block
+        margin-top: rem(8px)
