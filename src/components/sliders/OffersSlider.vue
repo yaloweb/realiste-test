@@ -24,7 +24,6 @@
                 </swiper-slide>
             </swiper>
         </div>
-        <div class="offers-slider-scrollbar" />
     </div>
 </template>
 
@@ -52,10 +51,6 @@ export default {
         sliderOptions: {
             slidesPerView: 'auto',
             centeredSlides: true,
-            scrollbar: {
-                el: '.offers-slider-scrollbar',
-                draggable: true
-            },
             mousewheel: true,
             freeMode: true,
             breakpoints: {
