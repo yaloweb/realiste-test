@@ -65,7 +65,8 @@ export default {
                 992: {
                     freeMode: true
                 }
-            }
+            },
+            grabCursor: true
         }
     })
 }
